@@ -2,7 +2,7 @@
 
 namespace CleanArch.Infra.Data.Migrations
 {
-    public partial class miginitialdb : Migration
+    public partial class initdb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

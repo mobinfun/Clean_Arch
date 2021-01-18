@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CleanArch.Infra.Data.Migrations
 {
     [DbContext(typeof(UniversityDBContext))]
-    [Migration("20210117174759_mig-initialdb")]
-    partial class miginitialdb
+    [Migration("20210120204748_initdb")]
+    partial class initdb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
