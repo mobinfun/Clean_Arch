@@ -1,4 +1,5 @@
 ﻿using CleanArch.Domain.Model;
+using CleanArch.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,5 +15,6 @@ namespace CleanArch.Infra.Data.Context
 
         }
         public DbSet<Course> Courses { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
